@@ -1,0 +1,27 @@
+The United Nations High Commissioner for Refugees (UNHCR) has established guidelines for the distribution of resources among refugees. These guidelines aim to ensure that resources are distributed in a fair, transparent, and equitable manner, taking into account the specific needs of different groups of refugees.
+
+The following are some of the key principles and guidelines used by the UNHCR in distributing resources among refugees:
+
+    Non-discrimination: Resources should be distributed without discrimination on the basis of race, ethnicity, gender, age, religion, or any other grounds.
+
+    Vulnerability-based approach: Resources should be distributed taking into account the specific needs of the most vulnerable groups, such as children, women, elderly persons, and persons with disabilities.
+
+    Fairness and transparency: The allocation of resources should be based on clear and transparent criteria, and the process should be open and accessible to all refugees.
+
+    Participation and empowerment: Refugees should have the opportunity to participate in the decision-making process regarding the distribution of resources and should be empowered to make informed decisions.
+
+    Evidence-based approach: The distribution of resources should be based on data and evidence, including assessments of the needs and capacities of different groups of refugees.
+
+These guidelines are intended to ensure that resources are distributed in a manner that is both efficient and equitable, and that takes into account the diverse needs of refugees. The UNHCR works closely with partner organizations and governments to implement these guidelines in practice.\
+
+/* 
+We have a contract ResourceDistribution with a constructor that takes the total supply of resources as an argument. 
+The contract has two mappings, allocation and refugeeStatus, which keep track of the resources allocated to each refugee and the refugee status of each refugee, respectively. 
+The RefugeeStatus enumeration defines the different types of refugee statuses.
+The setRefugeeStatus function allows a user to set their refugee status. 
+The allocate function uses the refugee status to determine the allocation amount for each refugee based on the UNHRC guidelines. 
+For example, children receive 15% of the total supply, women receive 20%, elderly persons receive 25%, and persons with disabilities receive 30%. 
+If the refugee status is not specified, the refugee receives 10% of the total supply.
+This code is just an example, and the actual distribution of resources among refugees will depend on the specific needs and capacities of different groups of refugees and the available resources. 
+The allocation process should be based on clear and transparent criteria, and refugees should have the opportunity to participate in the decision-making process and make informed decisions. 
+*/
